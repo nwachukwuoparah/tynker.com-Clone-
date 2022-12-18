@@ -1,15 +1,10 @@
-
-import Home from './Components1/Home'
 import './App.css'
-
-function App() {
-
-
+import Home from './Home/Home'
+const App = () => {
   return (
-    <div className="App">
-     <Home/>
+    <div>
+      <Home />
     </div>
-  )
+  );
 }
-
 export default App
