@@ -6,8 +6,8 @@ import Component2 from './Component2/Component2'
 import Component3 from './Component3/Component3'
 import Component4 from './Component4/Component4'
 import Component5 from './Component5/Component5'
-const Body = () => {
-    const [state, setState] = useState(false)
+import Component6 from './Component6/Component6'
+const Body = ({ setState, state }) => {
     const Menu = (
         <div>
             <div className='Menu'>
@@ -21,8 +21,7 @@ const Body = () => {
         </div>
     )
     return (
-        <div>
-            <Header setState={setState} state={state} />
+        <>
             <div className='Body_Wrap'>
                 {state ? Menu : ''}
                 <div className='Body_Contain'>
@@ -42,10 +41,11 @@ const Body = () => {
                     <Component3 />
                     <Component4 />
                     <Component5 />
+                    <Component6 />
                 </div>
             </div>
+        </>
 
-        </div>
     )
 }
 
