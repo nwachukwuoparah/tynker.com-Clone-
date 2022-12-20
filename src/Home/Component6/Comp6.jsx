@@ -23,8 +23,6 @@ const Comp6 = ({ img, p1, p2, p, height }) => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 

@@ -1,19 +1,31 @@
 .Menu {
+  padding: 0px 0px 0px 0px;
   width: 210%;
-  height: 100vh;
-  background-color: rgb(253, 230, 230);
+  height: 1942.3vh;
+  background-color: #1751A6;
   margin-top: -70px;
+  display: flex;
+  justify-content: center;
+  color: #f8f8f8;
 }
 .menu_lap {
   position: absolute;
-  height: 200vh;
+  height: 1942.3vh;
   width: 559px;
-  bottom: 0px;
+  bottom: -10296px;
   right: 0px;
   background: rgba(255, 255, 255, 0.27);
   backdrop-filter: blur(0.1px);
   /* background-color: red; */
   z-index: 100000;
+}
+.Menu_wrap {
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
 }
 .Head2 {
   display: flex;

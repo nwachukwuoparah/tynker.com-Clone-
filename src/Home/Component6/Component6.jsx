@@ -51,13 +51,20 @@ const Component6 = () => {
                             students
                         </div>
                     </div>
+
+
+                    <div className='Component7_card_w'>
+                        <div className='Component7_card'>
+                            <Comp6 img={student_cropped} height={220} p1='Tynker Featured Maker' p=' I thought a game was going to be extremely hard to make, but Tynker made it really easy.' />
+                            <Comp6 img={parent_cropped} height={290} p1="Charlotte R." p2="Parent | Melbourne, Australia" p="There's so much opportunity once they understand how coding works. It's amazing to see them create incredible things themselves." />
+                            <Comp6 img={teacher_cropped} height={240} p1="Valerie S." p2="5th Grade Teacher | California, US" p="Tynker has made programming fun, exciting, and simple and will help lead kids into their future." />
+                        </div>
+                    </div>
+
+
                 </div>
 
-                <div className='Component7_card'>
-                    <Comp6 img={student_cropped} height={220} p1='Tynker Featured Maker' p=' I thought a game was going to be extremely hard to make, but Tynker made it really easy.' />
-                    <Comp6 img={parent_cropped} height={290} p1="Charlotte R." p2="Parent | Melbourne, Australia" p="There's so much opportunity once they understand how coding works. It's amazing to see them create incredible things themselves." />
-                    <Comp6 img={teacher_cropped} height={240} p1="Valerie S." p2="5th Grade Teacher | California, US" p="Tynker has made programming fun, exciting, and simple and will help lead kids into their future." />
-                </div>
+
 
             </div>
 
@@ -148,15 +155,22 @@ const Component6 = () => {
                             </div>
                         </div>
                         <hr />
-                        <div className='footer_wrap_bottom'>
-                            <img src={tynker_small_darktm} />
-                            <p>© 2022 Neuron Fuel</p>
-                            <p>Terms</p>
-                            <h5>Conditions PRIVACY POLICY </h5>
-                            <p>Kids Online Safety</p>
-                            <p>About Us</p>
-                            <p>Contact Us</p>
+                        <div className='footer_wrap_botto'>
+                            <div className='footer_wrap_bottom'>
+
+                                <img src={tynker_small_darktm} />
+                                <p>© 2022 Neuron Fuel</p>
+                                <p>Terms & Conditions</p>
+                                <p>|</p>
+                                <h5> PRIVACY POLICY </h5>
+                                <p>|</p>
+                                <p>Kids Online Safety</p><p>|</p>
+                                <p>About Us</p><p>|</p>
+                                <p>Contact Us</p>
+
+                            </div>
                         </div>
+
 
                     </div>
                     <div className='stickey_footer'>
@@ -165,7 +179,7 @@ const Component6 = () => {
                         <button>NOW 20% OFF</button>
                     </div>
                     <div className='Question_div' >
-                        <BsQuestionCircleFill  style={{fontSize:40, color:'white'}}className='Question'/>
+                        <BsQuestionCircleFill style={{ fontSize: 40, color: 'white' }} className='Question' />
                     </div>
 
                 </div>

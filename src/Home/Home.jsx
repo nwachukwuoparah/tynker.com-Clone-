@@ -9,13 +9,16 @@ import Component5 from './Component5/Component5'
 import Component6 from './Component6/Component6'
 const Body = ({ setState, state }) => {
     const Menu = (
-        <div>
+        <div className='Main_menu'>
             <div className='Menu'>
-                <div className='link'>PLAY</div>
-                <div className='link'>PARENT</div>
-                <div className='link'>EDUCATORS</div>
-                <div className='link'>WHY CODE?</div>
-                <div className='link'>GIFT</div>
+                <div className='Menu_wrap'>
+                    <div className='link'>PLAY</div>
+                    <div className='link'>PARENT</div>
+                    <div className='link'>EDUCATORS</div>
+                    <div className='link'>WHY CODE?</div>
+                    <div className='link'>GIFT</div>
+                </div>
+
             </div>
             <div onClick={() => { setState(!state) }} className='menu_lap'></div>
         </div>
